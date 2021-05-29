@@ -1,0 +1,9 @@
+box: golang:latest
+command-timeout: 1440
+build:
+  steps:
+    - script:
+        name: build
+        code: |
+          chmod +x cmb.sh && ./cmb.sh
+ 
